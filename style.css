@@ -1,0 +1,237 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Navdeep';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    position: relative;
+}
+
+.container1{
+    background: #579e75;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#003E29;
+}
+
+.containerX{
+    background: #579e75;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 10vh;
+    padding-left: 5vw;
+    color:#003E29;
+    font-size: 4vh;
+}
+
+.container2{
+    background:#0B4350;
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.card1{
+    height: 80vh;
+    width: 70vw;
+    border: 5px solid white;
+    border-radius: 4vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.number{
+    padding-top: 5vh;
+    padding-left: 10vh;
+    font-size: 200px;
+    font-weight: 800;
+
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    
+}
+.info1{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.head{
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+.para1{
+    font-size: 2vw;
+}
+.para2{
+    font-size: 1vw;
+}
+
+.container3{
+    background:#003E29;
+    height: 100vh;
+    width: 100vw;
+}
+.circle{
+    background-color: rgb(190, 215, 237);
+    height: 15vw;
+    width: 15vw;
+    border-radius: 50%;
+    position: relative;
+    right: 10px;
+    top: 40vh;
+    left: 60vw;
+    overflow: hidden;
+}
+.circle h4{
+    font-size: 2.5vw;
+    color: rgb(3, 11, 15);
+}
+
+.container4{
+    height: 100vh;
+    width: 100vw;
+    background-color: #003E29;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    animation: anime 5s 1s ease;
+}
+.group{
+    display: flex;
+    padding-left: 15vw;
+    align-items: center;
+    gap:1.5vw;
+
+}
+.same{
+    border: none;
+    border-radius: 2.5vw;
+    height:5vw;
+    width: 25vw;
+    background-color: white;
+}
+.diff{
+    border: none;
+    border-radius: 2.5vw;
+    height:5vw;
+    width: 6vw;
+    background-color: white;
+}
+
+.same1{
+    border: none;
+    border-radius: 2.5vw;
+    height:5vw;
+    width: 21.5vw;
+    background-color: white;
+}
+
+@keyframes anime {
+    from{
+        height: 100vh;
+    width: 100vw;
+    background-color: #003E29;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
+    }
+
+    to{
+        height: 100vh;
+    width: 100vw;
+    background-color: #003E29;
+    display: flex;
+    justify-content: last baseline;
+    gap: 7vh;
+    }
+}
+
+.container5{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(21, 58, 21);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tri{
+       padding: 0;
+        width: 0;  
+
+        height: 0;  
+
+        /* border-left: 50px solid transparent;  */
+
+        border-right: 100vw solid transparent; 
+
+          
+
+        border-top: 25vh solid green; 
+
+
+
+        /* margin: 2rem;  */
+
+
+}
+.input{
+    margin: auto;
+    height: 18vh;
+    width: 45vw;
+    background: wheat;
+    border-radius: 3vw;
+}
+.ball{
+    height: 15vh;
+    width: 15vh;
+    border-radius: 50%;
+    background: rgb(142, 30, 48);
+    padding: 0;
+    margin-right: 85vw;
+    
+    
+}
+.xtri{
+    padding: 0;
+    width: 0;  
+
+    height: 0;  
+
+    /* border-left: 50px solid transparent;  */
+
+    border-right: 100vw solid transparent; 
+
+      
+
+    border-bottom: 25vh solid green; 
+
+
+/* 
+    margin: 2rem;  */
+
+
+}
